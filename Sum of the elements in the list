@@ -1,0 +1,13 @@
+n=[12,44,665,877,344]
+n.append(22)
+n.append(1)
+n.append(2)
+n.append(4)
+n.append(143)
+x=len(n)
+print(x)
+sum=0
+while x!=0:
+    sum+=n[x-1]
+    x-=1
+print(sum)
