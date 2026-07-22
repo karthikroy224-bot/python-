@@ -1,4 +1,4 @@
-class Solution(object):
+class x(object):
     def runningSum(self, nums):
         running_sum=0
         new_nums=[]
@@ -6,3 +6,8 @@ class Solution(object):
             running_sum+=nums[i]
             new_nums.append(running_sum)
         return new_nums
+            
+
+y=[10,100,20,200]
+karthik=x()
+print(karthik.runningSum(y))
