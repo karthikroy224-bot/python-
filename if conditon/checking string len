@@ -1,0 +1,5 @@
+strg=input("enter the string input : ")
+if len(strg)==0:
+    print("string is empty")
+else:
+    print("String is not empty")
