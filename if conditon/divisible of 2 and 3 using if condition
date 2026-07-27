@@ -1,0 +1,5 @@
+num=int(input())
+if num%2==0 and num%3==0:
+    printf("num is divisible by both 2 and 3");
+else:
+    print("num is not divisible by 2 and 3");
