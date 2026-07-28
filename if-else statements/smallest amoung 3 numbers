@@ -1,0 +1,9 @@
+a,b,c=map(int,input().split())
+if a<b and a<c:
+    print(a,"is smallest among three numbers")
+elif b<c and b<a:
+    print(b,"is smallest among three numbers")
+elif c<a and c<b:
+    print(c,"is smallest among three numbers")
+else:
+    print("all three are equal")
