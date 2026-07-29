@@ -1,0 +1,9 @@
+a,b,c,d=map(int,input().split())
+if(a>=b and a>=c and a>=d):
+    print(a,"is largest")
+elif(b>=c and b>=d):
+    print(b,"is largest")
+elif(c>=d):
+    print(c,"is largest")
+else:
+    print(d,"is greatest")
