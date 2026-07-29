@@ -1,0 +1,6 @@
+celsius1=float(input("enter tempereture in celsius :"))
+farhenheat1=float(input("enter tempereture in farhenheat :"))
+farhenheat=(celsius1*9/5)+32
+celsius=(farhenheat1-32)*5/9
+print("tempereture in farhenheat:",f"{farhenheat:.3f}")
+print("tempereture in celsius:",f"{celsius:.3f}")
