@@ -1,0 +1,10 @@
+num1=int(input("enter 1st number: "))
+num2=int(input("enter 2nd number: "))
+ch=input("enter the arthimatic calculation: ")[0]
+
+print("-------------------------------------")
+if ch=="+":print(num1+num2,"addition of two numbers")
+elif ch=="-":print(num1-num2,"subraction of two numbers")
+elif ch=="*":print(num1*num2,"multiplication of two numbers")
+elif ch=="/":print(f"{num1/num2:.2f}","division of two numbers")
+else:print("enter valid arithematic operator")
