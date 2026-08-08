@@ -1,0 +1,15 @@
+balance=10000
+print("select 1 for balance check")
+print("select 2 for withdrawl")
+select=int(input("enter the process 1 or 2 : "))
+
+if select==1:
+    print(f"your balance is :{balance:.2f}")
+elif select==2:
+    amount=int(input("enter the amount to withdrawl: "))
+    if amount<0:print("enter valid amount to withdrawl")
+    elif amount>balance:print("insuficient balance")
+    else:
+        balance-=amount
+        print(f"withdrawl is successful, current balance is {balance:.2f}")
+else : print("select the valid process")
