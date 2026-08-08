@@ -1,0 +1,11 @@
+pasword=input("enter the pasword: ")
+length=len(pasword)>=8
+upper=any(char.isupper for char in pasword)
+lower=any(char.islower for char in pasword)
+
+if length and upper and lower:
+    print("strong pasword")
+elif length and (upper or lower):
+    print("medium pasword")
+else:
+    print("week pasword")
