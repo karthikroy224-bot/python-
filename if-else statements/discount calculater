@@ -1,0 +1,10 @@
+amount=float(input("enter amount: "));
+if amount>4999:
+    amount=amount-amount*0.150
+elif amount>1999:
+    amount=amount-amount*0.100
+else:
+    amount=amount
+
+print(f"after discount: {amount:.2f}"); 
+print("after discount",amount);
